@@ -1,0 +1,18 @@
+<div id ="container">
+  <h2> Angular Sumapp</h2>
+<span>Numero 1</span> <input #num1 id ="num1" type="number">
+<span>Numero 2 </span> <input #num2 id ="num2" type="number">
+<br>
+<br>
+<br>
+<button (click)="PrintAdd(num1.value, num2.value)" id = "calc"> Sumar</button>
+<br>
+<br>
+<br>
+
+Resultado: <input #result id="result" type="text">
+
+</div>
+
+
+<router-outlet></router-outlet>
